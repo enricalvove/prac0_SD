@@ -14,9 +14,9 @@ public class ComUtilsService {
     public void writeTest() {
         //TODO: put your code here
         try {
-            comUtils.write_string("Albert i Enric");
+            comUtils.write_string("Enric");
             comUtils.write_int32(2);
-            comUtils.write_string_variable(2,"Estem molt contents :)");
+            comUtils.write_string_variable(2,"Tot correcte");
 
         } catch (IOException e) {
             e.printStackTrace();
